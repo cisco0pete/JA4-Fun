@@ -3,10 +3,14 @@ This repo will be used to share my research regarding the JA4+ plugin on Zeek 7.
 
 All information obtained is directly from Foxio under their license. Please see: https://github.com/FoxIO-LLC/ja4?tab=readme-ov-file#running-ja4 for more information. This repository is for research purposes only. 
 
-So far I have added the plugin for:
+That's an excellent idea. A professional README will be key for documenting your personal project and its utility.
 
-   Wireshark via Windows 11. 
-   Wireshark for Ubuntu Raspberry Pi
-   Python 3 on Ubuntu 
-   Zeek on Ubuntu 24.04
+Here is the complete README file, formatted for GitHub, describing each script, its arguments, and emphasizing the personal project context and goal of improving the JA4+ Zeek plugin's usability.
 
+🐘 Zeek JA4+ Fingerprint Extraction Scripts
+Introduction
+This repository contains a suite of Python scripts developed as a personal project to enhance the usability and data accessibility of the JA4+ fingerprinting capabilities integrated within a Zeek network security monitor environment.
+
+The official JA4+ Zeek Plugin successfully calculates various JA4+ fingerprints (JA4, JA4S, JA4T, JA4TS, JA4H, JA4X) by modifying standard Zeek logs (e.g., conn.log, ssl.log, http.log, x509.log). These scripts parse the resulting extended Zeek log files, extract the relevant connection details and fingerprints, and output the structured data into user-friendly CSV and JSON formats.
+
+The primary goal of this project is to create an easy, manual process for pulling out key JA4+ data on demand for threat hunting, baselining, and analysis. Future plans include automating these scripts for scheduled, hourly data extraction.
