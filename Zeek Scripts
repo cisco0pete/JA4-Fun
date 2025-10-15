@@ -1,7 +1,1 @@
-This folder contains python scripts I have written to extract JA4+ fingerprints from:
-  conn.log
-  ssl.log
-  http.log
-All JA4 information is formatted into JSON and can be queried as such. This is similar to the JA4 implementation in Python3 offered by FoxIO. 
-My scripts do not  do anything other than extract the JA4 information that has already been calculated by the JA4+ plugin with Zeek 7.0.8 itself. 
-The UID or CONNECTION ID can be queried to see the JA4 hashes associated with that connection. 
+
