@@ -12,4 +12,4 @@ The official JA4+ Zeek Plugin successfully calculates various JA4+ fingerprints 
 The primary goal of this project is to create an easy, manual process for pulling out key JA4+ data on demand for threat hunting, baselining, and analysis. Future plans include automating these scripts for scheduled, hourly data extraction.
 
 
-
+# Please see man_pages for a demonstration on how to use these scripts
