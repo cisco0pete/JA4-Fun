@@ -10,25 +10,3 @@ So far I have added the plugin for:
    Python 3 on Ubuntu 
    Zeek on Ubuntu 24.04
 
-python3 ja4.py [pcap] [options] 
-
-Usage
-Command-line Arguments
-positional arguments:
-  pcap                      The pcap file to process
-
-optional arguments:
-  -h, --help                Show this help message and exit
-  -key KEY                  The key file to use for decryption
-  -v, --verbose             Verbose mode
-  -J, --json                Output in JSON format
-  --ja4                     Output JA4 fingerprints only
-  --ja4s                    Output JA4S fingerprints only
-  --ja4l                    Output JA4L-C/S fingerprints only
-  --ja4h                    Output JA4H fingerprints only
-  --ja4x                    Output JA4X fingerprints only
-  --ja4ssh                  Output JA4SSH fingerprints only
-  -r, --raw_fingerprint     Output raw fingerprint
-  -o, --original_rendering  Output original rendering
-  -f, --output [FILE]       Send output to file
-  -s, --stream [STREAM]     Inspect a specific stream
