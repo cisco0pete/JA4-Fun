@@ -28,3 +28,4 @@ For Ja4 & Ja4s TLS example output:
 
 [![j4 TLS](ja4_output.png)](https://github.com/cisco0pete/JA4_Zeek/blob/main/parse_ja4s_ssl_log_REV_0.py)
 
+##My goal is to use the Connection ID (UID) property of Zeek to follow an entire connection all the way through. Ultimately, I want to cobble together the entire JA4+ finger print of a connection. Then print out a list of JSON that will easliy identify if this connection is legitimate or not. Perhaps tell me that is a Windows 11 device that is using a fake User-Agent and depricated TLS versions speaking to a known Sliver C2 server (JA4S Fingerprint & other T.I)
