@@ -13,3 +13,18 @@ The primary goal of this project is to create an easy, manual process for pullin
 
 
 # Please see man_pages for a demonstration on how to use these scripts
+
+
+For Ja4TCP example output: 
+
+[![j4TCP](ja4t_tcp_output.png)](https://github.com/cisco0pete/JA4_Zeek/blob/main/parse_ja4t_tcp_logs_REV_3.py)
+
+
+For Ja4HTTP example output: 
+
+[![j4http](ja4h_http_output.png)](https://github.com/cisco0pete/JA4_Zeek/blob/main/parse_ja4h_http_logs_REV_0.py)
+
+For Ja4 & Ja4s TLS example output:
+
+[![j4 TLS](ja4_output.png)](https://github.com/cisco0pete/JA4_Zeek/blob/main/parse_ja4s_ssl_log_REV_0.py)
+
